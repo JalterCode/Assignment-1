@@ -20,12 +20,12 @@ header, footer {
   background-color: #1A237E;
   margin: 0em 4em 0.25em 4em;
 }
-header h1 { 
+header h1 {
   padding: 0.5rem 0 0 1.25rem;
   font-size: 2rem;
   font-weight: bold;
 }
-header p { 
+header p {
   font-size: 1rem;
   font-style: italic;
   margin-bottom: 1rem;
@@ -47,7 +47,7 @@ section {
 }
 
 
-legend { 
+legend {
   font-size: 1.35rem;
   background-color: #7986CB;
   height: 1.70rem;
@@ -68,5 +68,69 @@ fieldset {
 form p {
    margin-top: 0.5em;
 }
+
+h2{
+    font-family: "Open Sans", Verdana, Arial, sans-serif;
+    text-align: left;
+    color: #cfdbfc;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 2px 0;
+    background-color: #7c84cb;
+}
+
+.section.photoTitle{
+    display: inline-block;
+}
+
+#photoDesc{
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#photoDetailsTable{
+    width:100%;
+}
+
+form{
+    background-color: #c6c9e8;
+}
+
+.inner{
+    padding:10px;
+}
+
+
+#locationTable select{
+    width: 250px;
+    height: 25px;
+}
+
+#locationTable input{
+    height: 25px;
+}
+
+#copyrightTable{
+    width: 600px;
+}
+
+#copyrightTable label{
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+
+
+
+
+
 
 
