@@ -4,69 +4,69 @@
 /* general text formatting */
 
 h1, h2, h3, nav, footer {
- font-family: Lobster, Cambria, "Times New Roman", serif;
+    font-family: Lobster, Cambria, "Times New Roman", serif;
 }
 body {
-   font-family: "Open Sans", Verdana, Arial, sans-serif;
-   font-size: 100%;
-   background-color: #E8EAF6;
+    font-family: "Open Sans", Verdana, Arial, sans-serif;
+    font-size: 100%;
+    background-color: #E8EAF6;
 }
 
 
 /* header and navigation */
 
 header, footer {
-  color: white;
-  background-color: #1A237E;
-  margin: 0em 4em 0.25em 4em;
+    color: white;
+    background-color: #1A237E;
+    margin: 0em 4em 0.25em 4em;
 }
 header h1 {
-  padding: 0.5rem 0 0 1.25rem;
-  font-size: 2rem;
-  font-weight: bold;
+    padding: 0.5rem 0 0 1.25rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 header p {
-  font-size: 1rem;
-  font-style: italic;
-  margin-bottom: 1rem;
-  padding: 0 0 0 1.25rem;
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    padding: 0 0 0 1.25rem;
 }
 
 
 /* main article styling */
 main {
-   background-color: white;
-   margin: 1em 4em 1em 4em;
-   padding: 1em;
+    background-color: white;
+    margin: 1em 4em 1em 4em;
+    padding: 1em;
 }
 
 section {
-   margin-bottom: 1em;
-   padding: 0;
-   width: 100%;
+    margin-bottom: 1em;
+    padding: 0;
+    width: 100%;
 }
 
 
 legend {
-  font-size: 1.35rem;
-  background-color: #7986CB;
-  height: 1.70rem;
-  color: #E8EAF6;
-  text-transform: uppercase;
+    font-size: 1.35rem;
+    background-color: #7986CB;
+    height: 1.70rem;
+    color: #E8EAF6;
+    text-transform: uppercase;
     width: 100%;
     margin: 0;
     padding: 5px 0;
 }
 
 fieldset {
-   margin: 0;
-   padding: 0;
-   background-color: #C5CAE9;
-   width: 100%;
-   border: none;
+    margin: 0;
+    padding: 0;
+    background-color: #C5CAE9;
+    width: 100%;
+    border: none;
 }
 form p {
-   margin-top: 0.5em;
+    margin-top: 0.5em;
 }
 
 h2{
@@ -90,8 +90,11 @@ h2{
 }
 
 input{
-    width: 100%;
     box-sizing: border-box;
+}
+
+#photoTitle{
+    width:100%
 }
 
 #photoDetailsTable{
@@ -116,16 +119,33 @@ form{
     height: 25px;
 }
 
-#copyrightTable{
-    width: 600px;
+
+#copyright input {
+    margin-right: 5px;
 }
 
-#copyrightTable label{
-    display: inline-flex;
+#copyright{
+    margin-top: -40px;
+    margin-left: 200px;
+}
+
+#copyright label {
+    display: flex;
     align-items: center;
     white-space: nowrap;
-    font-size: 15px;
+    border: 1px solid black;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

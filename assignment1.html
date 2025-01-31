@@ -1,109 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head >
-   <meta charset="utf-8">
-   <title>Assignment 1</title>
-   <link rel="stylesheet" href="reset.css" />
-   <link rel="stylesheet" href="assignment1.css" />
+    <meta charset="utf-8">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="assignment1.css" />
 </head>
 <body>
 <header>
-     <h1>Share Your Travels</h1>
-     <p>let us know where you've been</p>
+    <h1>Share Your Travels</h1>
+    <p>let us know where you've been</p>
 </header>
 <main>
-   <section>
-       <form>
-           <h2>PHOTO DETAILS</h2>
-           <div class="inner">
-               <table id="photoDetailsTable">
-                   <tr>
-                       <td>Title</td>
-                   </tr>
-                   <tr>
-                       <td>
-                           <label for="photoTitle"></label>
-                           <input type="text" id="photoTitle" name="photoTitle" placeholder="Give your photo a descriptive name">
-                       </td>
-                   </tr>
-                   <tr>
-                       <td>Description</td>
-                   </tr>
-                   <tr>
-                       <td>
-                           <label for="photoDesc"></label>
-                           <textarea id="photoDesc" name="photoDesc" placeholder="Adding a rich description will help with search results"></textarea>
-                       </td>
-                   </tr>
-               </table>
-               <table id="locationTable">
-                   <tr>
-                       <td>Continent</td>
-                   </tr>
-                   <tr>
-                       <td>
-                           <label for="continent-select"></label><select name="continents" id="continent-select">
-                               <option value="">Choose continent</option>
-                               <option value="north-america">North America</option>
-                               <option value="africa">Africa</option>
-                               <option value="antarctica">Antarctica</option>
-                               <option value="asia">Asia</option>
-                               <option value="europe">Europe</option>
-                               <option value="oceania">Oceania</option>
-                               <option value="south-america">South America</option>
-                           </select>
-                       </td>
-                   </tr>
-                   <tr>
-                       <td>Country</td>
-                   </tr>
-                   <tr>
-                       <td>
-                           <label for="country-select"></label>
-                           <select name="country-select" id="country-select">
-                               <option value="">Choose Country</option>
-                               <option value="canada">Canada</option>
-                               <option value="japan">Japan</option>
-                               <option value="america">America</option>
-                               </select>
-                       </td>
-                   </tr>
-                   <tr>
-                       <td>City</td>
-                   </tr>
-                   <tr>
-                       <td>
-                           <label for="city"></label>
-                           <input type="text" id="city" name="city">
-                       </td>
-
-                   </tr>
-               </table>
-               <table id ="copyrightTable">
-                   <tr>
-                       <td>Copyright?</td>
-                   </tr>
-                   <tr>
-                       <td>
-                           <label>
-                               <input type="radio" name="copyright" value="all-rights-reserved" checked> All rights reserved
-                           </label>
-                       </td>
-                   </tr>
-                   <tr>
-                       <td>
-                           <label>
-                               <input type="radio" name="copyright" value="creative-commons"> Creative Commons
-                           </label>
-                       </td>
-                   </tr>
-               </table>
-           </div>
-
-       </form>
+    <section>
+        <form>
+            <h2>PHOTO DETAILS</h2>
+            <div class="inner">
+                <table id="photoDetailsTable">
+                    <tr>
+                        <td>Title</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="photoTitle"></label>
+                            <input type="text" id="photoTitle" name="photoTitle" placeholder="Give your photo a descriptive name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="photoDesc"></label>
+                            <textarea id="photoDesc" name="photoDesc" placeholder="Adding a rich description will help with search results"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <table id="locationTable">
+                    <tr>
+                        <td>
+                            <label for="continent-select">Continent</label><br>
+                            <select name="continents" id="continent-select">
+                            <option value="">Choose continent</option>
+                            <option value="north-america">North America</option>
+                            <option value="africa">Africa</option>
+                            <option value="antarctica">Antarctica</option>
+                            <option value="asia">Asia</option>
+                            <option value="europe">Europe</option>
+                            <option value="oceania">Oceania</option>
+                            <option value="south-america">South America</option>
+                            </select><br>
+                        <label for="country-select">Country</label><br>
+                        <select name="country-select" id="country-select">
+                            <option value="">Choose Country</option>
+                            <option value="canada">Canada</option>
+                            <option value="japan">Japan</option>
+                            <option value="america">America</option>
+                        </select><br>
+                            <label for="city">City</label><br>
+                            <input type="text" id="city" name="city">
+                        </td>
+                        <td>
+                            <div id="copyright">
+                                <label>Copyright?</label><br>
+                                <label><input type="radio" name="Copyright" value="1"> All rights reserved</label>
+                                <label><input type="radio" name="Copyright" value="2" checked> Creative Commons</label>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
 
 
-   </section>
+    </section>
 </main>
 
 
